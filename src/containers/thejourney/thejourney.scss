@@ -1,0 +1,53 @@
+.jou-wrapper {
+  width: 100vw;
+  height: 160vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-x: hidden;
+}
+
+.thejourney {
+  height: 160vh;
+  width: 90%;
+  background-color: black;
+  &-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../assets/images/grassedited.png") no-repeat bottom
+      center / cover;
+    width: 100%;
+    height: 35%;
+    &-title {
+      color: white;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 100px;
+      line-height: 120px;
+    }
+  }
+
+  &-text {
+    color: white;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-align: left;
+    background: url("../../assets/images/line.png") no-repeat top left/auto;
+    &-pointwrapper {
+      padding-bottom: 20px;
+    }
+    &-heading {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 32px;
+    }
+    &-content {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 22px;
+    }
+  }
+}
