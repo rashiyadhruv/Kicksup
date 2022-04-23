@@ -6,6 +6,7 @@ import christiano from "../../../assets/images/christiano.jpg";
 
 export const Members = [
   {
+    id: "1",
     name: "Zidane",
     position: "Leadership and Management",
     imgurl: zidane,
@@ -15,6 +16,7 @@ export const Members = [
     nba: "",
   },
   {
+    id: "2",
     name: "Toni Kroos",
     position: "Product Developer",
     imgurl: tonikroos,
@@ -25,6 +27,7 @@ export const Members = [
     nba: "",
   },
   {
+    id: "3",
     name: "Iker Casillas",
     position: "Marketing Strategy",
     imgurl: ikercasillas,
@@ -35,6 +38,7 @@ export const Members = [
     nba: "",
   },
   {
+    id: "4",
     name: "James",
     position: "Product Designer",
     imgurl: james,
@@ -45,6 +49,7 @@ export const Members = [
     nba: "https://www.linkedin.com/company/ringover/",
   },
   {
+    id: "5",
     name: "Christiano",
     position: "Financial Operations",
     imgurl: christiano,
