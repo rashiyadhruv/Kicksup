@@ -19,7 +19,7 @@ const Shoedesigner = (props) => {
   const [back, setback] = useState(1);
   const [sole, setsole] = useState(1);
   const [size, setsize] = useState(7);
-  const [data, setdata] = useState(items[splitUrl[3]]);
+  const [data] = useState(items[splitUrl[3]]);
 
   const onfrontchangeone = () => {
     setfront(1);
