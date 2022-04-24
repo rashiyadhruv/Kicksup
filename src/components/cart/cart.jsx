@@ -6,7 +6,6 @@ const cart = (props) => {
     let newcart = [...props.cartitems];
     newcart.splice(id, 1);
     props.setcartitems(newcart);
-    console.log(newcart);
   };
 
   return (

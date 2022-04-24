@@ -77,7 +77,6 @@ const Shoedesigner = (props) => {
       ...props.cartitems,
       [{ data }, { front, middle, back, sole, size }],
     ]);
-    console.log(props.cartitems);
   };
   return (
     <div className="shoedesigner-container">
