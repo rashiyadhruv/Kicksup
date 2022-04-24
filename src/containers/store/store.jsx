@@ -4,7 +4,7 @@ import Filter from "../../components/filter/filter";
 import Mainstore from "../../components/mainstore/mainstore";
 import Cart from "../../components/cart/cart";
 
-const Store = () => {
+const Store = (props) => {
   const [maxprice, setmaxprice] = useState(100000);
   const [minprice, setminprice] = useState(0);
   const [colors, setcolors] = useState({
@@ -42,7 +42,7 @@ const Store = () => {
         />
       </div>
       <div className="store-cart">
-        <Cart />
+        <Cart cartitems={props.cartitems} setcartitems={props.setcartitems} />
       </div>
     </div>
   );

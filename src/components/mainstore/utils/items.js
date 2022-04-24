@@ -5,7 +5,8 @@ import shoe4 from "../../../assets/images/shoe4.svg";
 
 export const items = [
   {
-    id: "1",
+    id: "0",
+    uid: Math.random() * 1000,
     shoetype: "loafers",
     type: 1,
 
@@ -18,7 +19,8 @@ export const items = [
     color: "red",
   },
   {
-    id: "2",
+    id: "1",
+    uid: Math.random() * 1000,
 
     shoetype: "loafers",
     type: 1,
@@ -32,7 +34,8 @@ export const items = [
     color: "blue",
   },
   {
-    id: "3",
+    id: "2",
+    uid: Math.random() * 1000,
 
     shoetype: "sneakers",
     type: 2,
@@ -46,7 +49,8 @@ export const items = [
   },
 
   {
-    id: "4",
+    id: "3",
+    uid: Math.random() * 1000,
 
     shoetype: "sneakers",
     type: 2,
@@ -61,7 +65,8 @@ export const items = [
   },
 
   {
-    id: "5",
+    id: "4",
+    uid: Math.random() * 1000,
 
     shoetype: "loafers",
     type: 1,
@@ -76,7 +81,8 @@ export const items = [
   },
 
   {
-    id: "6",
+    id: "5",
+    uid: Math.random() * 1000,
 
     shoetype: "loafers",
     type: 1,
@@ -90,7 +96,9 @@ export const items = [
     color: "yellow",
   },
   {
-    id: "7",
+    id: "6",
+    uid: Math.random() * 1000,
+
     shoetype: "sketchers",
     type: 2,
 
@@ -103,7 +111,8 @@ export const items = [
     color: "yellow",
   },
   {
-    id: "8",
+    id: "7",
+    uid: Math.random() * 1000,
 
     shoetype: "sneakers",
     type: 2,

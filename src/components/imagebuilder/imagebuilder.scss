@@ -1,0 +1,21 @@
+.back {
+  background-color: #bdbdbd8a;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.im {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}

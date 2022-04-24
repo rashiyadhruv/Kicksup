@@ -1,8 +1,7 @@
 .itemcard {
   &-wrapper {
-    margin-top: 20px;
-    height: 86%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -59,4 +58,9 @@
       line-height: 16px;
     }
   }
+}
+.linking {
+  margin-top: 20px;
+  width: 80%;
+  height: 86%;
 }
